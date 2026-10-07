@@ -1,0 +1,25 @@
+# Gradle and Android build output
+.gradle/
+.kotlin/
+**/build/
+*.apk
+*.aab
+
+# Local SDK and IDE settings
+local.properties
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Credentials, signing keys and local VPN configurations
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+keystore.properties
+*.p12
+*.pem
+*.key
+*.conf
